@@ -1,0 +1,18 @@
+.card__title{
+  font-size: 30pt;
+}
+.card__data{
+  height: 300px;
+  background: #fff;
+  border-radius: 15px 15px 5px 5px;
+  margin-top: 20px;
+}
+.card__container{
+  height: 400px;
+  min-width: 300px;
+  background-color: #29292E;
+  color: #fff;
+  border-radius: 30px 30px 10px 10px;
+  text-align: center;
+  padding-top: 30px;
+}

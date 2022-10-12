@@ -1,0 +1,16 @@
+import * as S from './styles.module.css'
+import Rocket from '../../assets/rocket.svg'
+
+const Navbar = () => {
+	return (
+		<nav className={S.navbar__container}>
+			<div className={S.navbar__brand}>
+				<img src={Rocket} />
+				Orion Aerospace Design
+			</div>
+			<h1 className={S.navbar__title}>Queimadas</h1>
+		</nav>
+	)
+}
+
+export default Navbar
