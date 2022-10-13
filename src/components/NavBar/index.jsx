@@ -9,7 +9,9 @@ const Navbar = () => {
 					<img src={Rocket} />
 					Orion Aerospace Design
 				</div>
-				<h1 id={S.navbar__title}>Queimadas</h1>
+				<div>
+					<h1 id={S.navbar__title}>Queimadas</h1>
+				</div>
 			</nav>
 		</header>
 	)
