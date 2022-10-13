@@ -3,7 +3,7 @@ import Rocket from '../../assets/rocket.svg'
 
 const Navbar = () => {
 	return (
-		<section className={S.navbar}>
+		<header className={S.navbar}>
 			<nav className={S.navbar__container}>
 				<div className={S.navbar__brand}>
 					<img src={Rocket} />
@@ -11,7 +11,7 @@ const Navbar = () => {
 				</div>
 				<h1 id={S.navbar__title}>Queimadas</h1>
 			</nav>
-		</section>
+		</header>
 	)
 }
 
