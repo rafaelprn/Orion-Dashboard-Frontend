@@ -4,9 +4,10 @@ import './app.css'
 const App = () => {
 	return (
 		<div className="App">
-			<Card className='div1'/>
-			<Card className='div2'/>
-			<Card className='div3'/>
+			<Card classGrid="div1" />
+			<Card classGrid="div2" />
+			<Card classGrid="div3" />
+			<Card classGrid="div4" />
 		</div>
 	)
 }

@@ -1,25 +1,17 @@
-/* .card__title{
+.card__title{
   font-size: 30pt;
 
 }
 .card__data{
-  height: 300px;
+  height: 100%;
   background: #e6e6e6;
-  border-radius: 15px 15px 5px 5px;
   margin-top: 20px;
-} */
+  border-radius: 15px 15px 5px 5px;
+}
 .card__container{
-  justify-self: stretch;
-  align-self: stretch;
   background-color: #29292E;
   color: #fff;
-
-
+  padding-top: 15px;
+  text-align: center;
+  border-radius: 15px 15px 5px 5px;
 }
-/* .cards{
-	padding-top: 15px;
-	display: flex;
-	align-items: center;
-	text-align: center;
-	margin-left: 350px
-} */
