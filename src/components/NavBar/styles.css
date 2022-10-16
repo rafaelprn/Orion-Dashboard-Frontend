@@ -1,0 +1,25 @@
+.navbar__container{
+  text-align: center;
+  background: rgba(29, 28, 68, 0.94);
+  color: #fff;
+  font-weight: lighter;
+  padding: 20px 0px; /*o 1 controla altura o 2 largura */
+  position: relative;
+}
+.navbar__brand{
+  max-width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid red; */
+}
+.navbar__brand img{
+  margin-right: 15px; /*espacamento entre logo e nome */
+}
+.navbar__title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* border: 2px solid yellow; */
+}
