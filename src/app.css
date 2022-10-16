@@ -1,9 +1,10 @@
 .App {  
     display: grid;
     padding: 30px;
+    padding-bottom: 85px;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 100px;
+    row-gap: 90px;
     column-gap: 30px;
     grid-template-areas:
     "card1 card2 card4"
@@ -14,11 +15,9 @@
   .div1 { 
     grid-area: card1;
    }
-  
   .div2 { 
     grid-area: card2;
    }
-  
   .div3 {
     grid-area: card3;
   }
