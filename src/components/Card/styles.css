@@ -7,19 +7,16 @@
   background: #e6e6e6;
   border-radius: 15px 15px 5px 5px;
   margin-top: 20px;
-
-}
+} */
 .card__container{
-  height: 400px;
-  min-width: 300px;
+  justify-self: stretch;
+  align-self: stretch;
   background-color: #29292E;
   color: #fff;
-  border-radius: 30px 30px 10px 10px;
-  text-align: center;
-  padding-top: 30px;
-  padding-left: 10px;
+
+
 }
-.cards{
+/* .cards{
 	padding-top: 15px;
 	display: flex;
 	align-items: center;

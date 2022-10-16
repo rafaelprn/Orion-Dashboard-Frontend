@@ -1,0 +1,25 @@
+.App {  
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px 25px;
+    grid-template-areas:
+    "card1 card2",
+    "card3  card3";
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .div1 { 
+    grid-area: card1;
+   }
+  
+  .div2 { 
+    grid-area: card2;
+   }
+  
+  .div3 {
+    grid-area: card3;
+    justify-self: stretch;
+  }
+  
