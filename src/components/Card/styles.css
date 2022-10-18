@@ -7,6 +7,13 @@
   background: #e6e6e6;
   margin-top: 20px;
   border-radius: 15px;
+  /* padding: 20px; */
+}
+.card__data img{
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  border-radius: 15px;
 }
 .card__container{ /* fundo titulo */
   background-color: #393946;
@@ -14,4 +21,5 @@
   padding-top: 15px;
   text-align: center;
   border-radius: 15px;
+  min-height: 275px;
 }
