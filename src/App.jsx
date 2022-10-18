@@ -7,7 +7,7 @@ import './app.css'
 
 const App = () => {
 
-	const position = [51.505, -0.09]
+	const position = [-25.0947, -50.16316]
 
 	return (
 		<div className="App">
