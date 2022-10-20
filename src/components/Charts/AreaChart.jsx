@@ -7,6 +7,7 @@ import {
 	LineElement,
 	Title,
 	Tooltip,
+	Filler,
 	Legend,
 } from 'chart.js'
 import { Line } from 'react-chartjs-2'
@@ -18,6 +19,7 @@ ChartJS.register(
 	LineElement,
 	Title,
 	Tooltip,
+	Filler,
 	Legend
 )
 
@@ -25,38 +27,39 @@ import './styles.css'
 
 export const options = {
 	responsive: true,
-	maintainAspectRatio: false,
 	plugins: {
 		legend: {
 			position: 'top',
 		},
 		title: {
 			display: true,
-			text: 'MÉDIA POR ANO',
+			text: 'MÉDIA DO ÚLTIMO SEMESTRE',
 		},
 	},
 }
 
-const labels = ['2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022']
+const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July']
 
 export const data = {
 	labels,
 	datasets: [
 		{
-			label: 'Estados',
-			data: labels.map(() => Math.random() * 1000),
-			borderColor: 'rgb(255, 99, 132)',
-			backgroundColor: 'rgba(255, 99, 132, 0.5)',
-		},
-		{
+			fill: true,
 			label: 'Biomas',
 			data: labels.map(() => Math.random() * 1000),
 			borderColor: 'rgb(53, 162, 235)',
 			backgroundColor: 'rgba(53, 162, 235, 0.5)',
 		},
+		{
+			fill: true,
+			label: 'Biomas',
+			data: labels.map(() => Math.random() * 1000),
+			borderColor: 'rgb(250, 20, 50)',
+			backgroundColor: 'rgba(250, 20, 50, 0.5)',
+		},
 	],
 }
 
-export function LineChart() {
-	return <Line className='chart3' options={options} data={data} />
+export function AreaChart() {
+	return <Line className="chart2" options={options} data={data} />
 }

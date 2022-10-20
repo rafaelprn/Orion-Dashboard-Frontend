@@ -1,5 +1,4 @@
 import React from 'react'
-import { Bar } from 'react-chartjs-2'
 import {
 	Chart as ChartJS,
 	CategoryScale,
@@ -9,9 +8,11 @@ import {
 	Tooltip,
 	Legend,
 } from 'chart.js'
-import './styles.css'
+import { Bar } from 'react-chartjs-2'
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend)
+
+import './styles.css'
 
 export const options = {
 	responsive: true,

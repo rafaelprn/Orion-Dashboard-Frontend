@@ -1,9 +1,9 @@
 import Card from './components/Card'
-import Image2 from './assets/Media_nos_ultimos_meses.png'
+import { BarChart } from './components/Charts/BarChart'
+import { AreaChart } from './components/Charts/AreaChart'
+import { LineChart } from './components/Charts/LineChart'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import './app.css'
-import { BarChart } from './components/Charts/BarChart'
-import { LineChart } from './components/Charts/LineChart'
 
 const App = () => {
 
@@ -16,7 +16,7 @@ const App = () => {
 			</Card>
 
 			<Card classGrid="div2" text="Meses do Último Ano">
-				<img src={Image2} alt="" />
+				<AreaChart />
 			</Card>
 
 			<Card classGrid="div3" text="Total">
