@@ -21,30 +21,40 @@ export const options = {
 		},
 		title: {
 			display: true,
-			text: 'Chart.js Bar Chart',
+			text: 'QUEIMADAS POR ANO',
 		},
 	},
 }
 
-const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July']
+const labels = ['2018', '2019', '2020', '2021', '2022']
 
 export const data = {
 	labels,
 	datasets: [
 		{
-			label: 'Dataset 1',
+			label: 'Norte',
 			data: labels.map(() => (Math.random()*1000)),
-			backgroundColor: 'rgba(255, 99, 132, 0.5)',
+			backgroundColor: 'rgba(230, 250, 100, 0.7)',
 		},
 		{
-			label: 'Dataset 2',
+			label: 'Nordeste',
 			data: labels.map(() => (Math.random()*1000)),
-			backgroundColor: 'rgba(53, 162, 235, 0.5)',
+			backgroundColor: 'rgba(53, 162, 235, 0.7)',
 		},
 		{
-			label: 'Dataset 3',
+			label: 'Centro-Oeste',
 			data: labels.map(() => (Math.random()*1000)),
-			backgroundColor: 'rgba(0, 255, 132, 0.5)',
+			backgroundColor: 'rgba(0, 255, 132, 0.7)',
+		},
+		{
+			label: 'Sudeste',
+			data: labels.map(() => (Math.random()*1000)),
+			backgroundColor: 'rgba(255, 99, 132, 0.7)',
+		},
+		{
+			label: 'Sul',
+			data: labels.map(() => (Math.random()*1000)),
+			backgroundColor: 'rgba(250, 140, 200, 0.7)',
 		},
 	],
 }
