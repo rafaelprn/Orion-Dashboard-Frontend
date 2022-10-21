@@ -52,7 +52,7 @@ export const data = {
 		},
 		{
 			fill: true,
-			label: 'Biomas',
+			label: 'Estados',
 			data: labels.map(() => Math.random() * 1000),
 			borderColor: 'rgb(250, 20, 50)',
 			backgroundColor: 'rgba(250, 20, 50, 0.5)',
